@@ -120,24 +120,4 @@ Counter ditutup
 
 ---
 
-## 📸 Panduan Screenshot untuk Pengumpulan Tugas
-
-1. **Screenshot 1 (Tampilan UI Utama)**:
-   - Jalankan aplikasi.
-   - Tekan tombol **Tambah (+1)** beberapa kali (misalnya hingga angka bernilai 5).
-   - Ambil screenshot layar aplikasi.
-2. **Screenshot 2 (Pengujian Tombol Kurang & Aturan Tidak Minus)**:
-   - Tekan tombol **Kurang (-1)** hingga mencapai angka 0, lalu tekan lagi untuk menunjukkan angka tidak menjadi minus.
-   - Tekan tombol **Reset ke 0**.
-   - Ambil screenshot layar aplikasi.
-3. **Screenshot 3 (Bukti Widget Lifecycle di Console)**:
-   - Tekan tombol power/tutup di pojok kanan atas AppBar untuk menutup widget `CounterPage` (memicu `dispose()`).
-   - Tekan tombol **Buka Kembali Counter** (memicu `initState()`).
-   - Buka panel **Debug Console** di VS Code / Android Studio / Terminal.
-   - Ambil screenshot yang menampilkan log:
-     ```text
-     flutter: Counter dimulai
-     flutter: Counter ditutup
-     flutter: Counter dimulai
-     ```
 
